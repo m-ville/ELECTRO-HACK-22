@@ -13,7 +13,6 @@ const News = () => {
         console.log(resJson.articles);
         setData(resJson.articles);
         console.log(data);
-        // setQues(resJson.results);
       };
       fetchApi();
     }, []);
